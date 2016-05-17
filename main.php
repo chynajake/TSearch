@@ -9,7 +9,7 @@
 			<!-- This is Sign in form hidden until button is clicked -->
 			<div id="signIn">
 				<h1 align="center">Sign In</h1>
-				<form action="registration.php">
+				<form action="registration.php" method="post">
 					NickName: <input name="nickName" type="text"/> <br />
 					Password:  <input name="password" type="password" /> <br />
 					<input type="submit" value="SignIn" />
